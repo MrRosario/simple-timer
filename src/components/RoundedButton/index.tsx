@@ -26,7 +26,6 @@ export const RoundedButton: FC<Props> = ({
             setIsTimerReset(false)
             return;
         }
-        // DO THE RESET BUTTON STUFF HERE
         setIsTimerReset(true)
     }
 

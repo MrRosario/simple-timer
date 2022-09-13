@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { View, StyleSheet } from 'react-native';
 import { Counter } from '../components/Counter';
 import { RoundedButton } from '../components/RoundedButton';
-import useTimer from "../hooks/useTimer";
 
 export const HomeScreen = () => {
     const [isTimerReset, setIsTimerReset] = useState<boolean>(false);
